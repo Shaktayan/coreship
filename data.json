@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "email": "Srishaktayankumarbarik2000@gmail.com",
+      "name": "Shaktayan kumar barik",
+      "mob": "1234567890",
+      "password": "Nipun@123",
+      "id": 1
+    }
+  ],
+  "user_info": [
+    {
+      "name": "Shaktayan kumar barik",
+      "gender": "male",
+      "dob": "2023-07-11",
+      "mob": "1234567890",
+      "email": "Srishaktayankumarbarik2000@gmail.com",
+      "doctor": "vet",
+      "desc": "asdfghjklnbvzxcvbn",
+      "time": "15:15",
+      "id": 1
+    }
+  ]
+}

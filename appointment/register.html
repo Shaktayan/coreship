@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPOINTMENT FORM</title>
+    <link rel="stylesheet" href="./register.css">
+
+</head>
+<body>
+    <nav>
+        <a href="../index/index.html">Home</a>
+        <a href="../signup/signup.html">Sign Up</a>
+        <a href="../signin/signin.html">Sign In</a>
+        <a href="../contact/contact.html">Contact Us</a>
+    </nav>
+
+    <div id="source">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1O7aN1XwC7jEamx38MQv_742vmmnbBZ7vQ&usqp=CAU" 
+    alt="error" id="image1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3UWCTNpXAevrY6rqiB1klZahvcF2oSeYYzw&usqp=CAU"
+    alt="error" id="image2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3LC5Uo_WmU89ASrQy66AvGSNVEduf1DQG3Q&usqp=CAU" 
+    alt="" id="image3">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrYJ3PSb04cJnP_CmiWkKlsV9XniVjeFe33A&usqp=CAU" 
+    alt="error" id="image4">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiW6Y9PsPmewhoHUn5zp-XIupogjhgGDl_ig&usqp=CAU" 
+    alt="error">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ45Vej2AX4y8xuGEc7OcR5SDnk1BelgVv4dk3hmJzqtw3sBHGgpk8lCxhzSIDU4zagSXA&usqp=CAU" 
+    alt="error">
+    <hr color="black">
+    </div>
+    <br>
+    <div id="doctor">
+            <div>
+                <h1>DOCTOR'S APPOINTMENT FORM</h1>
+            </div>
+            <br>
+            <div>
+                <div>
+                <h2>PATIENT'S INFORMATION</h2>
+                </div>
+                <br>
+                <form action="../display/display.html" method="get">
+                <div>
+                    <b>NAME:</b> <input type="text" placeholder="ENTER YOUR FULL NAME" id="name">
+                </div>
+                <br>
+                <div>
+                    <b>GENDER:</b> <br>
+                    <input type="text" placeholder="enter your gender" id="gender">
+                </div>
+                <br>
+                <div >
+                    <b> DATE OF BIRTH:</b> <input type="date" placeholder="ENTER DOB" id="dob">
+                </div>
+                <br>
+                <div>
+                    <b>MOBILE NUMBER:</b><input type="number" placeholder="ENTER MOBILE NUMBER" id="mob">
+                </div>
+                <br>
+                <div>
+                    <b>EMAIL:</b><input type="email" placeholder="ENTER EMAIL" id="email">
+                </div>
+                <br>
+                <div>
+                    <label for="doctors"><b>DOCTOR SPECIALIZATION:</b></label>
+                    <select name="doctors" id="doctors">
+                        <option value="cardio">CARDIOLOGIST : PRADIP DAS </option>
+                        <option value="sur">SURGEON : AMAN SINGH</option>
+                        <option value="ortho">ORTHOPEDIC : VASHNAVI KAUR</option>
+                        <option value="vet">VETERINARIAN : SMRITI SHARMA</option>
+                        <option value="neuro" >NEUROLOGIST : RAM VERMA</option>
+                        <option value="radios">RADIOLOGIST : SHYAM KUMAR</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <b>DESCRIPTION OF THE DISEASE :</b> <br><textarea name="text" placeholder="enter the text" cols="39" rows="18" id="desc"></textarea>
+                </div>
+                <br>
+                <div>
+                    <b>TIME: </b> <input type="time" placeholder="Enter the time" id="times">
+                </div>
+                <br>
+                <div>
+                    <b>SUBMIT THE DETAILS:</b><button id="subt">SUBMIT DETAILS</button>
+                </div>
+            </form>
+            </div>
+        </div>
+</body>
+<script src="./register.js"></script>
+</html>

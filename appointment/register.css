@@ -1,0 +1,89 @@
+*{
+    background-color:#FFB972;
+    
+}
+nav {
+    /* background-color: rgb(5, 5, 61);
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    border: 3px black;
+    border-radius: 12px; */
+    background-color: rgb(5, 5, 61);
+    color: black;
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    position: sticky;
+    top: 0;
+    right:0;
+    left: 0;
+    z-index: 10;
+    border-radius: 12px;
+
+}
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+    transform:scale(1.5,1.5);
+
+}
+#doctor {
+    background-color: rgb(179, 75, 75);
+    margin: auto;
+    margin-bottom: 0.05%;
+    margin-right: 17%;
+    padding: 5%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+    align-items: center;
+    /* border: 3px solid black; */
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#doctor h1 {
+    color: rgb(5, 5, 61) ;
+    margin-left: 5%;
+    margin-top:2%;
+    text-align: center;
+} 
+#doctor h2{
+    color: rgb(5, 5, 61) ;
+    margin-left: 5%;
+    margin-top:2%;
+    text-align: center;
+}
+#doctor div {
+    color:rgb(5, 5, 61) ;
+    width: 85%;
+    padding: 3%;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 12px;
+}
+#doctor div:hover {
+    background-color: rgb(179, 75, 75);
+    cursor: pointer;
+    transform:scale(1.05,1.05);
+} 
+#doctor input:hover {
+    cursor: pointer;
+    transform:scale(1.06,1.06);
+}
+#doctor select:hover {
+    cursor: pointer;
+    transform:scale(1.06,1.06);
+}
+#doctor textarea:hover {
+    cursor: pointer;
+    transform:scale(1.02,1.02);
+}
+#source {
+    top: 0;
+    right:0;
+    left: 0;
+    z-index: 5;
+}
